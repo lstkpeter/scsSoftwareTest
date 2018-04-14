@@ -20,6 +20,11 @@ public class Try {
 	
 	static String []string1 = new String[97];
 	static String []string2 = new String[97];
+	static String []string3 = new String[97];
+	
+	public Try(){
+		readXlsx("E:\\大三下\\软件测试\\lab2\\input.xlsx");
+	}
 	
 	public static void readXlsx(String path)
     {
